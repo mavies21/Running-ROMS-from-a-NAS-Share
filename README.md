@@ -1,4 +1,4 @@
-make sure smb is enabled in raspi-config of retropie,
+make sure smb is enabled in retropie setup of retropie,
 
 then continue with the mount using fstab,
 
