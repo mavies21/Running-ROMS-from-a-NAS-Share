@@ -1,3 +1,7 @@
-put this following code at the top of fstab, accessed by "sudo nano /etc/fstab"
+put this following code at the top of fstab, accessed by "sudo nano /etc/fstab", modified to suit you.
 
+//IP ADDRESS/PATH TO ROMS /home/pi/RetroPie/roms cifs username=NAME,password=PASS,nounix,noserverino,defaults,users,auto 0 0
+> make sure to not forget the space between your nas share and the /home/pi....... because otherwise the system will believe it as one.
+
+here is how mine is setup if you would like a reference, yes i know that naming is probably unsafe but if someone gets access to my roms, well what are they gonna do.... play them?
 //192.168.4.158/main_share/retropie /home/pi/RetroPie/roms cifs username=retropie,password=retropie,nounix,noserverino,defaults,users,auto 0 0
